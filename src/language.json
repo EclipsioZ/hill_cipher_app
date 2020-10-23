@@ -1,0 +1,37 @@
+{
+"default": "0",
+"lang": "1",
+"language": [
+            {
+            "label": "FR",
+            "sidebarTitle": {
+                "home": "Accueil",
+                "matrixReverse": "Inverser Matrice",
+                "encrypt": "Encrypter",
+                "decrypt": "Décrypter",
+                "about": "A propos"
+                }
+            },
+            {
+            "label": "EN",
+            "sidebarTitle": {
+                "home": "Home",
+                "matrixReverse": "Reverse Matrix",
+                "encrypt": "Encrypt",
+                "decrypt": "Decrypt",
+                "about": "About"
+                }
+            },
+            {
+            "label": "ES",
+            "sidebarTitle": {
+                "home": "Inicio",
+                "matrixReverse": "Matriz inversa",
+                "encrypt": "Encriptar",
+                "decrypt": "Desencriptar",
+                "about": "Sobre"
+                }
+            }
+
+        ]
+}

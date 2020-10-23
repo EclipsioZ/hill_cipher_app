@@ -1,0 +1,98 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 100px;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    top: 30px;
+    background-color: #202225;;
+    position: absolute;
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: inherit;
+    color: rgb(204, 203, 203);
+    padding-top: 180%;
+    padding-bottom: 180%;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    color: rgb(61, 152, 255);
+  }
+
+  .sidebar a.active:hover {
+    color: rgb(0, 183, 255);
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 600px) { 
+    .sidebar-item{ 
+      font-size: 75%;
+    }
+    .sidebar a {
+        padding-top: 150%;
+        padding-bottom: 150%;
+      }
+  } 
+
+  @media screen and (max-width: 350px) { 
+    .sidebar-item{ 
+      font-size: 50%;
+    } 
+  } 
+
+  @media screen and (min-height: 450px) and (max-height: 550px) { 
+    .sidebar a {
+        padding-top: 72%;
+        padding-bottom: 72%;
+    }
+  }
+
+  @media screen and (min-height: 550px) and (max-height: 650px) { 
+    .sidebar a {
+        padding-top: 90%;
+        padding-bottom: 90%;
+    }
+  }
+
+  @media screen and (min-height: 650px) and (max-height: 750px) { 
+    .sidebar a {
+        padding-top: 115%;
+        padding-bottom: 115%;
+      }
+  } 
+
+  @media screen and (min-height: 750px) and (max-height: 850px) { 
+    .sidebar a {
+        padding-top: 140%;
+        padding-bottom: 140%;
+      }
+  } 
+
+  @media screen and (min-height: 850px) { 
+    .sidebar a {
+        padding-top: 165%;
+        padding-bottom: 165%;
+      }
+  }
+
+  
